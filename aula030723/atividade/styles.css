@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #635b4e;
+}
+
+a:hover {
+  color: #e8e6d6;
+}
+
+.nav {
+  background-color: #9e9883;
+  width: 100vw;
+  height: 9vh;
+  border-bottom: 1px solid #e8e6d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.nav li {
+  display: inline;
+  margin: 0 5rem 0 5rem;    
+}
+
+.nav a {
+  color: rgb(232, 230, 214);
+  font-size: large;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #f5f3e8;
+}
+
+.nav button{
+  background-color: #9e9883;
+  color: #e8e6d6;
+  font-size: large;
+  font-weight: 1000;
+  text-decoration: none;
+  padding-right: 10px;
+  border-radius: 5px;
+  border-color: #9e9883;
+}
+
+.nav button:hover {
+  color: #f5f3e8;
+}
+
+
+i {
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(232, 230, 214);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23bbb294' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.div-none {
+  width: 100vw;
+  height: 4rem;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  text-align: justify;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: justify;
+  margin-top: 0.5rem;
+}
+
+.box {
+  background-color: #f5f3e8;
+  padding: 4rem;
+  margin: 5rem 5rem 5rem 5rem;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #f5f3e8;
+  color: #635b4e;
+  font-size: medium;
+  font-weight: 800;
+  text-decoration: none;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-color: #f5f3e8;
+  margin-top: 1rem;
+}
+
+.button2 {
+  background-color: #f5f3e8;
+  color: #635b4e;
+  font-size: medium;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: #f5f3e8;
+  margin-top: 1rem;
+}
+
+i {
+  margin: 10px;
+}
+

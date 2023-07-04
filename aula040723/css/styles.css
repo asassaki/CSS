@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+}
+
+main {
+  padding: 16px 32px;
+}
+
+.blog-secao {
+  margin: 16px 0;
+}
+
+.blog-secao h2 {
+  text-align: center;
+}
+
+.blog-secao p {
+  text-align: justify;
+}
+
+.btn {
+  background-color: blueviolet;
+  border: 0;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+
+}
+
+.btn:hover {
+  /* aplica estilização quando o mouse está em cima */
+  background-color: orchid;
+  color: white;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
+}
+
+.navegacao ul {
+  background-color: orchid;
+  text-align: center;
+}
+
+.navegacao li {
+  display: inline-block;
+}
+
+.navegacao a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 8px;
+}
+
+.navegacao a:hover {
+  color: black;
+}
