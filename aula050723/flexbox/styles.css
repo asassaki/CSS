@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container-1 {
+  background-color: cornflowerblue;
+  /* padding: 12px; */
+  display: flex; /* ativa o flexbox */
+  /* row, column */
+  flex-direction: row;
+  /* nowrap, wrap -> indica se pode quebrar linha se não houver espaço */
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; atalho para flex-direction */
+  /* start, end, center, space-between, space-around */
+ justify-content: space-around; /* vai ajustar os elementos no eixo main */
+ align-items: center;
+ /* align-content: center; */
+ height: 600px;
+}
+
+.item-1 {
+  background-color: rgb(160, 159, 159);
+}
+
+.item-2 {
+  background-color: palevioletred;
+}
+
+.item-3 {
+  background-color: rgb(155, 230, 44);
+  align-self: flex-end;
+}
+
+.item-4 {
+  background-color: rgb(218, 139, 61);
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  width: 200px;
+  padding: 8px;
+}
+
+.container-2 {
+  background-color: orchid;
+  height: 250px;
+  display: flex;
+}
+
+.coluna-1 {
+  background-color: aliceblue;
+  width: 200px;
+}
+
+.coluna-2 {
+  background-color: pink;
+  flex: 2; /* ocupa uma porção do espaço disponível */
+}
+
+.coluna-3 {
+  background-color: tomato;
+  flex: 1;
+}
